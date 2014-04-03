@@ -1,16 +1,16 @@
-window.print("HOLY FUCK IS THIS A REAL WEBSITE?");
+window.write("HOLY FUCK IS THIS A REAL WEBSITE?");
 realSite = prompt("WELL IS IT?(y/n)");
 
 if(realSite = "y"){
-  window.print("DAMN STRAIGHT");
+  window.write("DAMN STRAIGHT");
 }
 
 else if(realSite = "n"){
-  window.print("GO PLAY COD YOU ASSHOLE");
+  window.write("GO PLAY COD YOU ASSHOLE");
 }
 
 else{
-  window.print("SPEAK ENGLISH");
+  window.write("SPEAK ENGLISH");
 }
 
-window.print("Well, this is it, nothing else to display.");
+window.write("Well, this is it, nothing else to display.");
