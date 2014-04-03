@@ -1,15 +1,13 @@
 realSite = prompt("IS THIS NOT THE GREATEST WEBSITE EVER? (y/n)");
 
 if(realSite === "y"){
-  document.write("DAMN STRAIGHT\n");
+  document.write("DAMN STRAIGHT");
 }
 
 else if(realSite === "n"){
-  document.write("GO PLAY COD YOU ASSHOLE\n");
+  document.write("GO PLAY COD YOU ASSHOLE");
 }
 
 else{
-  document.write("SPEAK ENGLISH\n");
+  document.write("SPEAK ENGLISH");
 }
-
-document.write("Well, this is it, nothing else to display.");
