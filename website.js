@@ -1,8 +1,7 @@
-
-realSite = prompt("WELL IS IT?(y/n)");
+realSite = prompt("IS THIS NOT THE GREATEST WEBSITE EVER? (y/n)");
 
 if(realSite = "y"){
-  console.log("DAMN STRAIGHT");
+  document.write("DAMN STRAIGHT");
 }
 
 else if(realSite = "n"){
