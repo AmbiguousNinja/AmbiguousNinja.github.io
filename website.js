@@ -1,8 +1,8 @@
-document.write("HOLY FUCK IS THIS A REAL WEBSITE?");
+
 realSite = prompt("WELL IS IT?(y/n)");
 
 if(realSite = "y"){
-  document.write("DAMN STRAIGHT");
+  console.log("DAMN STRAIGHT");
 }
 
 else if(realSite = "n"){
