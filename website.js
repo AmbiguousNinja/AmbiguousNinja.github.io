@@ -12,4 +12,4 @@ else{
   document.write("SPEAK ENGLISH");
 }
 
-document.write("/nWell, this is it, nothing else to display.");
+document.write("\nWell, this is it, nothing else to display.");
