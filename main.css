@@ -1,3 +1,7 @@
+html {
+    font-family: helvetica;
+}
+
 body {
     margin: 0;
 }
@@ -5,8 +9,9 @@ body {
 header {
     background: #f7f7f7;
     color: rgb(178, 178, 178);
-    position: absolute;
+    position: fixed;
     top: 0;
+    height: 45px;
     width: 100%;
 }
 
