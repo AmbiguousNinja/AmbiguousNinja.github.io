@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    background: black;
+    background: grey;
     color: rgb(178, 178, 178);
-
+    position: fixed;
     top: 0;
     height: 45px;
     width: 100%;
