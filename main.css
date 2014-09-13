@@ -16,6 +16,7 @@ header {
     top: 0;
     height: 45px;
     width: 100%;
+    z-index: 1;
 }
 
 header h1 {
@@ -41,7 +42,7 @@ header #wu {
 .title p {
     margin-top: 45px;
 
-    text-align: center;
+    
 }
 .title p#lineone {
     position: relative;
