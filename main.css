@@ -37,14 +37,23 @@ header #wu {
 }
 
 .title p {
-    position: relative;
-    top: 50px;
     margin-top: 45px;
-    font-size: 50px; 
-    
+
     text-align: center;
 }
+.title p#lineone {
+    position: relative;
+    font-weight: bold;
+    top: 45px;
+    font-size: 50px; 
+}
 
+.title p#linetwo {
+    position: relative;
+    font-weight: lighter;
+    top: 20px;
+    font-size: 30px;   
+}
 nav ul {
     margin-top: 20px;
     padding: 0 0 0 15px;
