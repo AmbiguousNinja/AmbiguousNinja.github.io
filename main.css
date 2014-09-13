@@ -4,11 +4,11 @@ html {
 
 body {
     margin: 0;
-    background: blue;
+    background: #fff;
 }
 
 header {
-    background: white;
+    background: #fdfdfd;
     color: rgb(178, 178, 178);
     position: fixed;
     top: 0;
@@ -22,6 +22,7 @@ header h1 {
 }
 
 header #hui {
+    margin-left: 50px;
     color: rgb(201, 201, 201);
 }
 
@@ -29,18 +30,53 @@ header #wu {
     color: rgb(142, 142, 142);
 }
 
+.title {
+    margin-top: 45px;
+    background: #d8d8d5;
+    height: 250px;
+}
+
+.title p {
+    position: relative;
+    top: 50px;
+    margin-top: 45px;
+    font-size: 50px; 
+    
+    text-align: center;
+}
+
 nav ul {
-    margin: 0;
+    margin-top: 20px;
     padding: 0 0 0 15px;
+    text-align: center;
 }
 
 nav ul li {
-    background: black;
+
     color: white;
     display: inline-block;
     list-style-type: none;
     padding: 5px 15px;
 }
+
+nav ul li a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: #818181;  
+}
+
+nav ul li a:hover {
+    color: #525252; 
+    
+}
+
+
+
+
 
 .row {
     clear: both;
