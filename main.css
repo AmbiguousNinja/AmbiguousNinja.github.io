@@ -34,16 +34,27 @@ header #wu {
 }
 
 .title {
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    
     margin-top: 45px;
     background: #d8d8d5;
-    height: 250px;
+    text-align: center;
 }
 
 .title p {
-    margin-top: 45px;
-
-    
+    position: relative;
+    margin-top: 45px;  
 }
+
 .title p#lineone {
     position: relative;
     font-weight: bold;
