@@ -40,6 +40,46 @@ body #name a:hover, a:hover span {
     display: inline;
 }
 
+.title {
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+    width: 100%;
+    margin-top: 45px;
+    background: white;
+    text-align: center;
+}
+
+.title #lineone {
+    position: relative;
+    font-weight: bold;
+    top: 0px;
+    font-size: 50px;
+}
+
+.title #linetwo {
+    position: relative;
+    font-weight: lighter;
+    top: 20px;
+    font-size: 30px;   
+}
+
+.title #separatortwo {
+    border: 0px;
+    border-style: solid;
+    height: 1px;
+    background-color: #e0dddd;
+    margin-top: 7px;
+}
+
 .row {
     clear: both;
 }
