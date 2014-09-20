@@ -8,23 +8,40 @@ body {
 }
 
 body .span {
-    color: white;   
-}
-body #name a:link {
-    text-decoration: none;
     color: white;
+    font-weight: lighter;
 }
 
-body #name a:visited {
-    text-decoration: none;
-    color: white;
+body #name {
+    top: 50px;
+}
+body .namebox {
+    width: 300px;
+    height: 45px;
+    margin-left: 50px;
+    background-color:black;
+    color:white;
+    position: relative;
 }
 
-body #name a:hover, a:hover span {
-    color: white;
+body .linkspan1 {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;   
 }
 
+body div.namebox a:link {
+    text-decoration: none;   
+}
+
+body div.namebox a:hover {
+    background-color: yellow;   
+}
 .menubar {
+    opacity: 0.95;
     background: #262f3d;
     color: rgb(178, 178, 178);
     position: fixed;
@@ -68,7 +85,7 @@ body #name a:hover, a:hover span {
 .title #linetwo {
     position: relative;
     font-weight: lighter;
-    top: 20px;
+    top: 0px;
     font-size: 30px;   
 }
 
