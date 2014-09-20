@@ -4,31 +4,40 @@ html {
 
 body {
     margin: 0;
-    background: #fff;
+    background: #f2f2f2;
 }
 
-header {
-    background: #fff;
+body .span {
+    color: white;   
+}
+body #name a:link {
+    text-decoration: none;
+    color: white;
+}
+
+body #name a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body #name a:hover, a:hover span {
+    color: white;
+}
+
+.menubar {
+    background: #262f3d;
     color: rgb(178, 178, 178);
     position: fixed;
     top: 0;
     height: 45px;
     width: 100%;
-    z-index: 9999;
+    z-index: 5000;
 }
 
-header h1 {
+.menubar #name {
     margin: 0;
-    display: inline;
-}
-
-header #hui {
     margin-left: 50px;
-    color: rgb(201, 201, 201);
-}
-
-header #wu {
-    color: rgb(142, 142, 142);
+    display: inline;
 }
 
 .title {
@@ -45,28 +54,32 @@ header #wu {
 
     width: 100%;
     margin-top: 45px;
-    background: #f0f0f0;
+    background: white;
     text-align: center;
 }
 
-.title p {
-    position: relative;
-    margin-top: 45px;  
-}
-
-.title p#lineone {
+.title #lineone {
     position: relative;
     font-weight: bold;
-    top: 45px;
-    font-size: 50px; 
+    top: 0px;
+    font-size: 50px;
 }
 
-.title p#linetwo {
+.title #linetwo {
     position: relative;
     font-weight: lighter;
     top: 20px;
     font-size: 30px;   
 }
+
+.title #separatortwo {
+    border: 0px;
+    border-style: solid;
+    height: 1px;
+    background-color: #e0dddd;
+    margin-top: 7px;
+}
+
 nav ul {
     margin-top: 20px;
     padding: 0 0 0 15px;
