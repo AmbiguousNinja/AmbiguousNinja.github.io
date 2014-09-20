@@ -1,0 +1,115 @@
+html {
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+}
+
+header {
+    background: #fff;
+    color: rgb(178, 178, 178);
+    position: fixed;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    z-index: 9999;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+header #hui {
+    margin-left: 50px;
+    color: rgb(201, 201, 201);
+}
+
+header #wu {
+    color: rgb(142, 142, 142);
+}
+
+.title {
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+    width: 100%;
+    margin-top: 45px;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.title p {
+    position: relative;
+    margin-top: 45px;  
+}
+
+.title p#lineone {
+    position: relative;
+    font-weight: bold;
+    top: 45px;
+    font-size: 50px; 
+}
+
+.title p#linetwo {
+    position: relative;
+    font-weight: lighter;
+    top: 20px;
+    font-size: 30px;   
+}
+nav ul {
+    margin-top: 20px;
+    padding: 0 0 0 15px;
+    text-align: center;
+}
+
+nav ul li {
+
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: #818181;  
+}
+
+nav ul li a:hover {
+    color: #cccaca;   
+}
+
+.row {
+    clear: both;
+}
+
+.column {
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 10px .5%;
+    float: left;
+    margin: .5%;
+    width: 31%;
+}
+
+footer {
+    clear: both;
+}
+    
