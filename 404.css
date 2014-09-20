@@ -1,0 +1,60 @@
+html {
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    background: #f2f2f2;
+}
+
+body .span {
+    color: white;   
+}
+body #name a:link {
+    text-decoration: none;
+    color: white;
+}
+
+body #name a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body #name a:hover, a:hover span {
+    color: white;
+}
+
+.menubar {
+    background: #262f3d;
+    color: rgb(178, 178, 178);
+    position: fixed;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    z-index: 5000;
+}
+
+.menubar #name {
+    margin: 0;
+    margin-left: 50px;
+    display: inline;
+}
+
+.row {
+    clear: both;
+}
+
+.column {
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 10px .5%;
+    float: left;
+    margin: .5%;
+    width: 31%;
+}
+
+footer {
+    clear: both;
+}
+    
