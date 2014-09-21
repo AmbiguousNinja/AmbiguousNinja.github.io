@@ -7,41 +7,8 @@ body {
     background: #f2f2f2;
 }
 
-body .span {
-    color: white;
-    font-weight: lighter;
-}
 
-body #name {
-    top: 50px;
-}
-body .namebox {
-    width: 300px;
-    height: 45px;
-    margin-left: 50px;
-    background-color:black;
-    color:white;
-    position: relative;
-}
-
-body .linkspan1 {
-    position:absolute; 
-    width:100%;
-    height:100%;
-    top:0;
-    left: 0;
-    z-index: 1;   
-}
-
-body div.namebox a:link {
-    text-decoration: none;   
-}
-
-body div.namebox a:hover {
-    background-color: yellow;   
-}
 .menubar {
-    opacity: 0.95;
     background: #262f3d;
     color: rgb(178, 178, 178);
     position: fixed;
@@ -51,12 +18,44 @@ body div.namebox a:hover {
     z-index: 5000;
 }
 
-.menubar #name {
+.menubar .namebox #name {
     margin: 0;
-    margin-left: 50px;
-    display: inline;
+    left: 20px;
+    position: relative;
+
 }
 
+.menubar .namebox .span {
+    color: white;
+    font-weight: lighter;
+}
+
+.menubar .namebox {
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+    background-color:#262f3d;
+    color:white;
+    position: relative;
+}
+
+.menubar .linkspan1 {
+    position:absolute; 
+    width:100%;
+    height:100%;
+    top:0;
+    left: 0;
+    z-index: 1;   
+}
+
+.menubar .linkspan1 {
+    color: white;   
+}
+
+.menubar .namebox:hover  {
+    background-color: #333f51;
+
+}
 .title {
     display: -webkit-flex;
     display: flex;
