@@ -1,14 +1,25 @@
 html {
-    font-family: helvetica;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    margin: 0;
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    padding: 0;
     background: #f2f2f2;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 px;
+    word-wrap: break-word;
+}
+/*========================
+        MENUBAR 
+========================*/
 .menubar {
-    clear: both;
     background: #3e454f;
     color: rgb(178, 178, 178);
     position: fixed;
@@ -19,70 +30,96 @@ body {
     text-align: center;
 }
 
-.menubar .namebox #name {
-    margin: 0;
-    position: relative;
-
-}
-
-.menubar .namebox .span {
-    color: white;
-    font-weight: lighter;
-}
-
-.menubar .namebox {
+/* NAMEBOX */
+.namebox {
+    position: relative; 
     width: 125px;
     height: 45px;
-    margin-left: 50px;
-    background-color:#3e454f;
-    color:white;
-    position: relative;
-    float: left;
+    background-color: inherit;
+    color: white;
+    display: inline-block;
 }
 
-.menubar .linkspan1 {
-    position:absolute; 
+.namebox h1{
+    position: relative;
+    margin: 0;
+    text-decoration: none;
+}
+
+.namebox .ls1 {
+    position:relative; 
     width:100%;
     height:100%;
-    top:0;
-    left: 0;
     z-index: 1;  
     color: white;
 }
 
-.menubar .namebox:hover  {
+.namebox:hover  {
     background-color: #788495;
+    text-decoration: none;
 }
 
-/*
-.namebox, .twitter {
-    
+ a:link {
+    text-decoration: none;
 }
 
-.menubar .twitter {
-    width: 100px;
-    height: 45px;
-    background-color: #3e454f;
-    color: white;
+ a:visited {
+    text-decoration: none;
+}
+
+/* SPACER */
+.titlespacer {
     position: relative;
-}
-.menubar .twitter:hover {
-    background-color: #788495;   
+    width: 200px;
+    height: 45px;
+    background: inherit;
+    display: inline-block;
 }
 
-*/
+.titlespacer h1{
+    margin: 0;
+    color:#3e454f;
+}
 
-.menubar .linkspan2 {
-    position: absolute;
+
+/* TESTBOX */
+.testbox {
+    position: relative;
+    width: 125px;
+    height: 45px;
+    background-color: inherit;
+    display: inline-block;
+}
+
+.testbox h1{
+    position: relative;
+    margin: 0;
+    text-decoration: none;
+}
+
+.testbox .ls2 {
+    position: relative;
     width: 100%;
     height: 100%;
-    right: 0;
-    vertical-align: middle;
-    z-index: 1;
+    z-index 1;
     color: white;
 }
 
-.title {
+.testbox:hover  {
+    background-color: #788495;
+    text-decoration: none;
+}
+
+ a:link {
+    text-decoration: none;
+}
+
+ a:visited {
+    text-decoration: none;
+}
+
+/* TITLEBOX */
+.titlebox {
     display: -webkit-flex;
     display: flex;
     
@@ -93,73 +130,15 @@ body {
     flex: 1;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-
-    width: 100%;
-    margin-top: 45px;
-    background: #ebebeb;  
-    color: #333333;
-}
-
-.title #lineone {
-    position: relative;
-    font-weight: bold;
-    top: 0px;
-    font-size: 50px;
-    text-align: center;
-}
-
-.title #linetwo {
-    position: relative;
-    font-weight: lighter;
-    top: 0px;
-    font-size: 15px;   
-}
-
-.title .linetwobox {
-    text-align: center;
-    width: 300px;
-    margin: auto;
-}
-
-.title #separatortwo {
-    border: 0px;
-    border-style: solid;
-    height: 1px;
-    background-color: #dadada;
-    margin-top: 7px;
-}
-
-nav ul {
-    margin-top: 20px;
-    padding: 0 0 0 15px;
-    text-align: center;
-}
-
-nav ul li {
-    color: white;
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px 15px;
-}
-
-nav ul li a:link {
-    text-decoration: none;
-    color: grey;
-}
-
-nav ul li a:visited {
-    text-decoration: none;
-    color: #818181;  
-}
-
-nav ul li a:hover {
-    color: #cccaca;   
-}
-
-body {
-    text-align: center;
-}
-
-footer {
-}
     
+    background: #3e454f;
+    margin-top: 45px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.heading-large {
+    color: white;
+    font-size: 50px;
+}
