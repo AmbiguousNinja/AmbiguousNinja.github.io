@@ -16,9 +16,7 @@ body {
     padding: 0 px;
     word-wrap: break-word;
 }
-/*========================
-        MENUBAR 
-========================*/
+
 .menubar {
     background: #3e454f;
     color: rgb(178, 178, 178);
@@ -30,7 +28,6 @@ body {
     text-align: center;
 }
 
-/* NAMEBOX */
 .namebox {
     position: relative; 
     width: 125px;
@@ -67,7 +64,6 @@ body {
     text-decoration: none;
 }
 
-/* SPACER */
 .titlespacer {
     position: relative;
     width: 200px;
@@ -81,8 +77,6 @@ body {
     color:#3e454f;
 }
 
-
-/* TESTBOX */
 .testbox {
     position: relative;
     width: 125px;
@@ -118,7 +112,6 @@ body {
     text-decoration: none;
 }
 
-/* TITLEBOX */
 .titlebox {
     display: -webkit-flex;
     display: flex;
