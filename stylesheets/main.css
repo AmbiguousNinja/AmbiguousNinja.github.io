@@ -18,6 +18,15 @@ body {
 }
 
 .menubar {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1;
+    flex: 1;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    
     background: #3e454f;
     color: rgb(178, 178, 178);
     position: fixed;
@@ -41,6 +50,7 @@ body {
     position: relative;
     margin: 0;
     text-decoration: none;
+    vertical-align: middle;
 }
 
 .namebox .ls1 {
@@ -78,30 +88,32 @@ body {
 }
 
 .testbox {
-    position: relative;
-    width: 125px;
+    width: 50px;
     height: 45px;
     background-color: inherit;
     display: inline-block;
+
 }
 
 .testbox h1{
-    position: relative;
     margin: 0;
     text-decoration: none;
+
 }
 
 .testbox .ls2 {
-    position: relative;
     width: 100%;
     height: 100%;
     z-index 1;
-    color: white;
+    color: #b9b8b8;
 }
 
 .testbox:hover  {
     background-color: #788495;
     text-decoration: none;
+}
+.testbox:hover .ls2{
+    color: white;
 }
 
  a:link {
@@ -115,10 +127,8 @@ body {
 .titlebox {
     display: -webkit-flex;
     display: flex;
-    
     -webkit-flex-direction: column;
     flex-direction: column;
-    
     -webkit-flex: 1;
     flex: 1;
     -webkit-justify-content: space-around;
