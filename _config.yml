@@ -1,0 +1,11 @@
+# Site settings
+title: Ambiguous Blog
+email: theambiguousninja@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Random Footer Paragraph
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.tonyhuiwu.com" # the base hostname & protocol for your site
+github_username:  ambiguousninja
+
+# Build settings
+markdown: kramdown

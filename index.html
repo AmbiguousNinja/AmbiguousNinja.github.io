@@ -1,42 +1,21 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Sigh</title>
+---
+layout: default
+---
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
-        <link href="stylesheets/main.css" rel="stylesheet" type="text/css" >
-        <link href="stylesheets/fa-modify.css" rel="stylesheet" type="text/css">
-        <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    </head>
+<div class="home">
 
-    <body>
-        <header class="menubar">
-            <div class="container">
-                <a href="#">
-                    <div class="namebox">
-                        <h1><span class="ls1">huiwu</span></h1>
-                        
-                    </div>
-                </a>
-                    <div class="titlespacer">
-                        <h1><span class="ls3">hello! :)</span></h1>
-                    </div>
-                <a href="https://www.linkedin.com/profile/view?id=283516529">
-                    <div class="testbox">
-                        <h1><span class="ls2"><i id="linkedin" class="fa fa-linkedin-square"></i></span></h1>
-                    </div>
-                </a>
-            </div>
-        </header>
-        
-        <div class="titlebox">
-            <div class="container">
-                <div class="heading-large">
-                    <p>EE Student</p>
-                </div>
-            </div>
-        </div>
-        <p>filler</p>
-        
-    </body>
-</html>
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
