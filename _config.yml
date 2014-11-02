@@ -15,9 +15,9 @@ author:
 # Custom vars
 excerpt_separator: <!--more-->
 pages_list:       
-  About : 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  Projects: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  Resume:   'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  About : '/about'
+  Projects: '/projects'
+  Resume:   'images/resume.pdf'
 version:          1.0.0
 github:
   repo:           
