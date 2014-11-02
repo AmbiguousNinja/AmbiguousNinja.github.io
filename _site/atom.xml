@@ -4,7 +4,7 @@
  <title>Tony Wu</title>
  <link href="http://www.tonyhuiwu.com/atom.xml" rel="self"/>
  <link href="http://www.tonyhuiwu.com/"/>
- <updated>2014-11-02T15:44:03-05:00</updated>
+ <updated>2014-11-02T16:42:29-05:00</updated>
  <id>http://www.tonyhuiwu.com</id>
  <author>
    <name>Tony Wu</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Under Construction</title>
-   <link href="http://www.tonyhuiwu.com//2014/11/02/first-post/"/>
+   <link href="http://www.tonyhuiwu.com//first-post/"/>
    <updated>2014-11-02T00:00:00-04:00</updated>
-   <id>http://www.tonyhuiwu.com/2014/11/02/first-post</id>
+   <id>http://www.tonyhuiwu.com/first-post</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Everything&#39;s still under construction but you can still download my resume if that&#39;s your thing.
 &lt;/div&gt;

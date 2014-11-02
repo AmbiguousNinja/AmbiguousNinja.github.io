@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Under Construction
+permalink: first-post/
 ---
 
 <div class="message">
