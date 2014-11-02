@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Tony Wu</title>
+ <link href="http://www.tonyhuiwu.com/atom.xml" rel="self"/>
+ <link href="http://www.tonyhuiwu.com/"/>
+ <updated>2014-11-02T14:22:09-05:00</updated>
+ <id>http://www.tonyhuiwu.com</id>
+ <author>
+   <name>Tony Wu</name>
+   <email>tonyhuiwu@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Under Construction</title>
+   <link href="http://www.tonyhuiwu.com//2014/11/02/first-post/"/>
+   <updated>2014-11-02T00:00:00-04:00</updated>
+   <id>http://www.tonyhuiwu.com/2014/11/02/first-post</id>
+   <content type="html">&lt;div class=&quot;message&quot;&gt;
+  Everything&#39;s still under construction but you can still download my resume if that&#39;s your thing.
+&lt;/div&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;Why not &lt;a href=&quot;http://www.google.ca&quot;&gt;google&lt;/a&gt; random things instead of wasting time here?&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

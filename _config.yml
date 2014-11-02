@@ -1,11 +1,23 @@
-# Site settings
-title: Ambiguous Blog
-email: theambiguousninja@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Random Footer Paragraph
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.tonyhuiwu.com" # the base hostname & protocol for your site
-github_username:  ambiguousninja
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:            Tony Wu
+url:              http://www.tonyhuiwu.com
+paginate:         3
+baseurl:          /
+author:
+  name:           Tony Wu
+  url:            http://www.google.ca
+  email:          tonyhuiwu@gmail.com
+
+# Custom vars
+excerpt_separator: <!--more-->
+pages_list:       
+  About : '/about'
+  Projects: '/projects'
+  Resume:   '/images/resume.pdf'
+version:          1.0.0
+github:
+  repo:           
