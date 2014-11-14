@@ -2,6 +2,6 @@
 layout: page
 title: About
 ---
+Long story short, I'm an **Electrical Engineer** undergrad student in my **2A** term at the **University of Waterloo**.
 
-UNDER CONSTRUCTION
-
+But that's a pretty boring summary.

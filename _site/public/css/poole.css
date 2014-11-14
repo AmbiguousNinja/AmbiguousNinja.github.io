@@ -58,7 +58,7 @@ html {
   }
 }
 menubar{
-    
+
 }
 
 body {
@@ -308,6 +308,7 @@ tbody tr:nth-child(odd) th {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+
 }
 .masthead-title {
   margin-top: 0;
@@ -348,7 +349,7 @@ tbody tr:nth-child(odd) th {
   color: #303030;
 }
 .post-title a:hover{
-  color: red;   
+  color: red;
 }
 .page-title,
 .post-title {

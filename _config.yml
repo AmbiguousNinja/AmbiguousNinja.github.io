@@ -14,10 +14,10 @@ author:
 
 # Custom vars
 excerpt_separator: <!--more-->
-pages_list:       
+pages_list:
   About : '/about'
+  Archive: '/archive'
   Projects: '/projects'
-  Resume:   'images/resume.pdf'
 version:          1.0.0
 github:
-  repo:           
+  repo:
