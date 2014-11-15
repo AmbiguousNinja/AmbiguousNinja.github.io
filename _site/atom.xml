@@ -4,7 +4,7 @@
  <title>Tony Wu</title>
  <link href="http://www.tonyhuiwu.com/atom.xml" rel="self"/>
  <link href="http://www.tonyhuiwu.com/"/>
- <updated>2014-11-15T15:56:34-05:00</updated>
+ <updated>2014-11-15T16:23:58-05:00</updated>
  <id>http://www.tonyhuiwu.com</id>
  <author>
    <name>Tony Wu</name>
@@ -15,9 +15,9 @@
  <entry>
    <title>I Wrote a Book!</title>
    <link href="http://www.tonyhuiwu.com//tale-of-shail/"/>
-   <updated>2014-11-20T00:00:00-05:00</updated>
+   <updated>2974-12-26T00:00:00-05:00</updated>
    <id>http://www.tonyhuiwu.com/tale-of-shail</id>
-   <content type="html">&lt;p&gt;About a month ago my midterms exams ended and suddenly it felt like I had a lot
+   <content type="html">&lt;p&gt;About a month ago my midterm exams ended and suddenly it felt like I had a lot
 of free time to do whatever I felt like.&lt;/p&gt;
 
 &lt;p&gt;I was wrong.&lt;/p&gt;
@@ -32,7 +32,7 @@ procrastination sessions, I was finally able to finish it! Go read it &lt;a href
    <link href="http://www.tonyhuiwu.com//hello-world/"/>
    <updated>2014-11-02T00:00:00-04:00</updated>
    <id>http://www.tonyhuiwu.com/hello-world!</id>
-   <content type="html">&lt;p&gt;After months of deciding how to go about a personal webiste I’ve finally settled
+   <content type="html">&lt;p&gt;After months of deciding how to go about a personal website I’ve finally settled
 on some kind of blog-portfolio hybrid.&lt;/p&gt;
 
 &lt;p&gt;Exciting.&lt;/p&gt;

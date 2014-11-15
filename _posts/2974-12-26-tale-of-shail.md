@@ -3,7 +3,7 @@ layout: post
 title: I Wrote a Book!
 permalink: tale-of-shail/
 ---
-About a month ago my midterms exams ended and suddenly it felt like I had a lot
+About a month ago my midterm exams ended and suddenly it felt like I had a lot
 of free time to do whatever I felt like.
 
 I was wrong.
