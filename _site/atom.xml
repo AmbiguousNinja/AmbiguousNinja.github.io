@@ -4,7 +4,7 @@
  <title>Tony Wu</title>
  <link href="http://www.tonyhuiwu.com/atom.xml" rel="self"/>
  <link href="http://www.tonyhuiwu.com/"/>
- <updated>2014-11-20T21:48:57-05:00</updated>
+ <updated>2014-11-20T22:24:22-05:00</updated>
  <id>http://www.tonyhuiwu.com</id>
  <author>
    <name>Tony Wu</name>
@@ -15,15 +15,14 @@
  <entry>
    <title>I Wrote a Book!</title>
    <link href="http://www.tonyhuiwu.com//tale-of-shail/"/>
-   <updated>2974-12-26T00:00:00-05:00</updated>
+   <updated>2014-11-21T00:00:00-05:00</updated>
    <id>http://www.tonyhuiwu.com/tale-of-shail</id>
-   <content type="html">&lt;p&gt;About a month ago my midterm exams ended and suddenly it felt like I had a lot
-of free time to do whatever I felt like.&lt;/p&gt;
+   <content type="html">&lt;p&gt;A story 19 years in the making; a life retold through pictures and rhyming
+words. It’s:&lt;/p&gt;
 
-&lt;p&gt;I was wrong.&lt;/p&gt;
+&lt;p&gt;The Tale of Shail.&lt;/p&gt;
 
-&lt;p&gt;But nonetheless I started to work on a children’s book and in between
-procrastination sessions, I was finally able to finish it! Go read it &lt;a href=&quot;/tale-of-shail/intro/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Go read it &lt;a href=&quot;/tale-of-shail/intro/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
