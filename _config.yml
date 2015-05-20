@@ -1,23 +1,7 @@
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+safe:        false
+port:	4000
+baseurl:    /
 
-# Setup
-title:            Tony Wu
-url:              http://www.tonyhuiwu.com
-paginate:         3
-baseurl:          /
-author:
-  name:           Tony Wu
-  url:            http://www.tonyhuiwu.com
-  email:          tonyhuiwu@gmail.com
-
-# Custom vars
-excerpt_separator: <!--more-->
-pages_list:
-  About : '/about'
-  Archive: '/archive'
-  Projects: '/projects'
-version:          1.0.0
-github:
-  repo:
+source:      .
+destination: ./_site
+plugins:     ./_plugins

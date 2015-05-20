@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello World!
-permalink: hello-world/
 ---
 After months of deciding how to go about a personal website I've finally settled
 on some kind of blog-portfolio hybrid.
