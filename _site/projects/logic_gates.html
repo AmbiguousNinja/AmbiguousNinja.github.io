@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+<title>Physical Truth Table</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="/materialize/css/materialize.css"/>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="/materialize/js/materialize.js" type="text/javascript" charset="utf-8"></script>
+<link href="/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+<script src="/scripts/main.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body style="height">
+	<div class="navbar-fixed">
+	<nav class="top-nav green lighten-1">
+		<div class="container">
+			<div class="nav-wrapper">
+				<a href="/index.html" class="brand-logo">Tony Wu</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
+				<ul class="right hide-on-med-and-down">
+					<li><a href="/index.html">About</a></li>
+					<li><a href="/blog.html">Blog</a></li>
+					<li><a href="/projects.html">Projects</a></li>
+					<li><a href="/assets/resume.pdf">Résumé</a></li>
+					<li><a href="#">Github</a></li>
+					<li><a href="#">LinkedIn </a></li>
+				</ul>
+				
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="/index.html">About</a></li>
+					<li><a href="/blog.html">Blog</a></li>
+					<li><a href="/projects.html">Projects</a></li>
+					<li><a href="/assets/resume.pdf">Résumé</a></li>
+					<li><a href="https://github.com/AmbiguousNinja">Github</a></li>
+					<li><a href="https://ca.linkedin.com/in/tonyhuiwu">LinkedIn </a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+
+	<main>
+		<div class="container">
+			<div class="row">
+	<div class="col s12">
+		<h1>Physical Truth Table</h1>
+		<p><p><img width="700px" src="/assets/projects/logic1.jpg" /></p>
+
+<p>In this project, there are two buttons that represent inputs to an AND or OR
+logic gate.</p>
+
+<p>The third button (furthest right) controls which type of logic gate the circuit
+behaves like. It is initially set to “AND” but has its value toggled to “OR” and
+vice versa with each click.</p>
+
+<div class="col s6">
+	<img src="/assets/projects/logic2.jpg" />
+</div>
+<div class="col s6">
+	<img src="/assets/projects/logic3.jpg" />
+</div>
+
+<p>The above images show the circuit working as an OR gate.</p>
+
+<p><strong>Note:</strong> The green LED was swapped with a more camera-friendly yellow.</p>
+
+<div class="col s4">
+	<img src="/assets/projects/logic4.jpg" />
+</div>
+<div class="col s4">
+	<img src="/assets/projects/logic5.jpg" />
+</div>
+<div class="col s4">
+	<img src="/assets/projects/logic6.jpg" />
+</div>
+
+<p>These images show the circuit behaving as an AND gate.</p>
+
+<p>The code used to implement this circuit:</p>
+
+<pre><code>#define LEDPIN 13
+
+#define BUTTON_A 7
+#define BUTTON_B 8
+#define BUTTON_C 9
+
+int value_a = 0;
+int value_b = 0;
+int value_c = 0;
+
+int logic_gate = 0; // Determines whether to AND or OR
+
+void setup() {
+  // Assign pins to input/output
+  pinMode(LEDPIN, OUTPUT);
+
+  pinMode(BUTTON_A, INPUT);
+  pinMode(BUTTON_B, INPUT);
+  pinMode(BUTTON_C, INPUT);
+}
+
+void loop() {
+  value_a = digitalRead(BUTTON_A);
+  value_b = digitalRead(BUTTON_B);
+  value_c = digitalRead(BUTTON_C);
+
+  // Switches the type of logic gate when the toggle button is pressed
+  if (value_c == LOW &amp;&amp; logic_gate == 0){
+    logic_gate = 1;   // Uses OR logic
+  }
+  else if (value_c == LOW &amp;&amp; logic_gate == 1){
+    logic_gate = 0;   // Uses AND logic
+  }
+
+  switch (logic_gate)
+  {
+    case 0:
+      and_gate();
+      break;
+
+    default:
+      or_gate();
+  }
+}
+
+void and_gate()
+{
+  switch (value_a &amp;&amp; value_b)
+  {
+    case 1:
+      digitalWrite(LEDPIN, LOW);
+      break;
+
+    default:
+      digitalWrite(LEDPIN, HIGH);
+  }
+}
+
+void or_gate()
+{
+  switch (value_a || value_b)
+  {
+    case 1:
+      digitalWrite(LEDPIN, LOW);
+      break;
+
+    default:
+      digitalWrite(LEDPIN, HIGH);
+  }
+}
+</code></pre>
+</p>
+	</div>
+</div>
+
+		</div>
+	</main>
+</body>

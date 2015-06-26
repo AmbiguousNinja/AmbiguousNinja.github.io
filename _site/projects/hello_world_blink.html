@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-<title>Tale of Shail</title>
+<title>Simple Blinking LEDs</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <link rel="stylesheet" href="/materialize/css/materialize.css"/>
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -43,26 +43,29 @@
 
 	<main>
 		<div class="container">
-			<div class="container">
-	<div class="col s12 m7">
-		<div class="card" padding="0px">
-         <div class="card-image">
-	<img src="/assets/tos/12.png">
-</div>
-<div class="card-content" style="text-align: center; padding-top: 5px;">
-	<div class="row" style="height: 0px;">
-		<div class="col s6">
-			<a class="black-text waves-effect waves-light blue-grey lighten-4 btn-flat" style="width: 100%;"
-				href="/tale-of-shail/11.html">Previous Page</a>
-		</div>
-		<div class="col s6">
-			<a class="black-text waves-effect waves-light blue-grey lighten-4 btn-flat" style="width: 100%;"
-				href="/tale-of-shail/13.html">Next Page</a>
-		</div>
-	</div>
-</div>
+			<div class="row">
+	<div class="col s12">
+		<h1>Simple Blinking LEDs</h1>
+		<p><p><img width="500" src="/assets/projects/blinking.jpg" /></p>
 
-      </div>
+<p>A simple circuit that blinks the two series LEDs every second.</p>
+
+<p>The code used:</p>
+
+<pre><code>#define LEDPIN 13
+
+void setup() {
+  pinMode(LEDPIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LEDPIN, HIGH); // ON
+  delay(1000); // Sleep for 1000 ms
+  digitalWrite(led, LOW); // OFF
+  delay(1000); // Sleep for 1000 ms
+}
+</code></pre>
+</p>
 	</div>
 </div>
 
