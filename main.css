@@ -7,10 +7,17 @@ body {
 	font-family: sans-serif;
 }
 
-h1,h2,h3 {
-	line-height: 1;
+body a {
+	text-decoration: none;
 }
 
+h1,h2,h3 {
+	line-height: 1.0;
+}
+
+img {
+	margin-bottom: 15px;
+}
 .menu ul {
 	margin: 0;
 	padding: 0;
@@ -33,4 +40,18 @@ header {
 }
 header p {
 	line-height: 1;
+}
+
+.project {
+	border-bottom: 1px solid black;
+}
+
+.project a {
+	text-decoration: none;
+}
+
+.codebox {
+	border: 1px solid black;
+	word-wrap: break-word;
+	padding: 10px;
 }
