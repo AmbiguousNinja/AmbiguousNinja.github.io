@@ -1,0 +1,36 @@
+body {
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	font-size: 18px;
+	padding: 0 10px;
+	font-family: sans-serif;
+}
+
+h1,h2,h3 {
+	line-height: 1;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	line-height: 1;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu a {
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+}
+header p {
+	line-height: 1;
+}

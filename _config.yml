@@ -1,7 +1,0 @@
-safe:        false
-port:	4000
-baseurl:    /
-
-source:      .
-destination: ./_site
-plugins:     ./_plugins
