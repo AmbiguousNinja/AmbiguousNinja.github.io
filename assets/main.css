@@ -54,8 +54,8 @@ table {
 */
 
 body {
-  background: #4CAF50;
-  color: #888;
+  background: #2196F3;
+  color: #212121;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -142,8 +142,8 @@ body {
   padding: 66px 0 44px 0;
 }
 .row-alt {
-  background: #C8E6C9;
-  padding: 30px 0 22px 0;
+  background: #BBDEFB;
+  padding: 30px 0 30px 0;
 }
 
 /*
@@ -151,29 +151,28 @@ body {
   Typography
   ========================================
 */
-
 h1, h2, h3, h4 {
-  color: #648880;
+  color: #212121;
 }
 h1, h3, h4, h5, p {
-  margin-bottom: 22px;
+margin-bottom: 22px;
 }
 h1 {
-  font-size: 36px;
-  line-height: 44px;
+font-size: 36px;
+line-height: 44px;
 }
 h2 {
-  font-size: 24px;
-  line-height: 44px;
+font-size: 24px;
+line-height: 44px;
 }
 h3 {
-  font-size: 21px;
+font-size: 21px;
 }
 h4 {
-  font-size: 18px;
+font-size: 18px;
 }
 h5 {
-  color: #a9b2b9;
+  color: #727272;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -210,14 +209,11 @@ figcaption {
 */
 
 a {
-  color: #648880;
+  color: #727272;
   text-decoration: none;
 }
 a:hover {
-  color: #a9b2b9;
-}
-p a {
-  border-bottom: 1px solid #dfe2e5;
+  color: blue;
 }
 .primary-header a,
 .primary-footer a {
@@ -225,7 +221,7 @@ p a {
 }
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #648880;
+  color: #8BC34A;
 }
 
 /*
@@ -246,7 +242,7 @@ p a {
 }
 .btn-default {
   border: 0;
-  background: #648880;
+  background: #fff;
   padding: 11px 30px;
   font-size: 14px;
 }
@@ -254,12 +250,14 @@ p a {
   background: #77a198;
 }
 .btn-alt {
-  border: 1px solid #fff;
+  background: #8CD654;
   padding: 10px 30px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .btn-alt:hover {
-  background: #fff;
-  color: #648880;
+  background: #8BC34A;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /*
@@ -267,7 +265,6 @@ p a {
   Primary header
   ========================================
 */
-
 .logo {
   float: left;
   font-size: 48px;
@@ -294,10 +291,10 @@ p a {
 */
 
 .primary-footer {
-  color: #648880;
+  color: #fff;
   font-size: 14px;
-  padding-bottom: 44px;
-  padding-top: 44px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 .primary-footer small {
   float: left;
@@ -321,7 +318,6 @@ p a {
 .nav li:last-child {
   margin-right: 0;
 }
-
 /*
   ========================================
   Home
@@ -345,10 +341,14 @@ p a {
   color: #a9b2b9;
 }
 .teaser img {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   border-radius: 5px;
   display: block;
   margin-bottom: 22px;
-  max-width: 100%
+  max-width: 100%;
+}
+.teaser img:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /*
@@ -373,7 +373,7 @@ p a {
 
 /*
   ========================================
-  Tale of Shail
+  Image Viewer
   Image viewer modified from: http://codepen.io/AMKohn/
   ========================================
 */
@@ -436,7 +436,6 @@ p a {
     line-height: 600px;
     vertical-align: middle;
     background-color: rgba(255, 255, 255, .5);
-    /*text-shadow: 0px 0px 15px rgb(119, 119, 119);*/
 }
 
 .slide:hover + .nav label {
@@ -459,4 +458,8 @@ input:checked + .slide-container  .slide {
 
 input:checked + .slide-container .nav label { 
   display: block;
+}
+
+iframe {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
