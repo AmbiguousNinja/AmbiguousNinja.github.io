@@ -1,4 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* 
+   CSS Reset
+   http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -110,7 +112,7 @@ body {
 }
 /*
   ========================================
-  Clearfix
+  Fix Stuff
   ========================================
 */
 
@@ -373,8 +375,8 @@ a:hover {
 
 /*
   ========================================
-  Image Viewer
-  Image viewer modified from: http://codepen.io/AMKohn/
+  Image Viewer 
+  Modified version of snippet by http://codepen.io/AMKohn/
   ========================================
 */
 .slides {
