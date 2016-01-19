@@ -54,11 +54,17 @@ table {
   Custom styles
   ========================================
 */
-
 body {
-  background: #2196F3;
-  color: #212121;
+  background: #ECF0F1;
+  color: #2D2D2D;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background: #fff;
+}
+footer {
+  background: #1F1F1F;
 }
 
 /*
@@ -66,7 +72,6 @@ body {
   Grid
   ========================================
 */
-
 *,
 *:before,
 *:after {
@@ -83,6 +88,7 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .grid,
 .col-1-1,
 .col-1-2,
@@ -110,6 +116,7 @@ body {
 .col-1-1 {
   width: 100%;
 }
+
 /*
   ========================================
   Fix Stuff
@@ -134,7 +141,6 @@ body {
   Rows
   ========================================
 */
-
 .row,
 .row-alt {
   min-width: 960px;
@@ -144,8 +150,8 @@ body {
   padding: 66px 0 44px 0;
 }
 .row-alt {
-  background: #BBDEFB;
-  padding: 30px 0 30px 0;
+  background: #ECF0F1;
+  padding: 50px 0 30px 0;
 }
 
 /*
@@ -154,7 +160,7 @@ body {
   ========================================
 */
 h1, h2, h3, h4 {
-  color: #212121;
+  color: #2D2D2D;
 }
 h1, h3, h4, h5, p {
 margin-bottom: 22px;
@@ -174,7 +180,7 @@ h4 {
 font-size: 18px;
 }
 h5 {
-  color: #727272;
+  color: #2D2D2D;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -189,6 +195,9 @@ em {
 figcaption {
   font-size: 18px;
   text-align: center;
+}
+hr {
+  margin: 0;
 }
 /*
   ========================================
@@ -211,19 +220,21 @@ figcaption {
 */
 
 a {
-  color: #727272;
+  color: #2D2D2D;
   text-decoration: none;
 }
 a:hover {
-  color: blue;
+  color: #2ECC71;
 }
-.primary-header a,
+.primary-header a {
+  color: #000;
+}
 .primary-footer a {
   color: #fff;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #8BC34A;
+  color: #2ECC71;
 }
 
 /*
@@ -231,35 +242,27 @@ a:hover {
   Buttons
   ========================================
 */
-
 .btn {
-  border-radius: 5px;
-  color: #fff;
+  border-radius: 0px;
+  color: #2ECC71;
   cursor: pointer;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: .5px;
   margin: 0;
   text-transform: uppercase;
 }
+
 .btn-default {
-  border: 0;
-  background: #fff;
-  padding: 11px 30px;
-  font-size: 14px;
+  border: solid;
+  padding: 10px 25px;
+  border-width: 2px;
+  border-color: #2ECC71;
 }
+
 .btn-default:hover {
-  background: #77a198;
-}
-.btn-alt {
-  background: #8CD654;
-  padding: 10px 30px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-.btn-alt:hover {
-  background: #8BC34A;
+  background: #2ECC71;
   color: #fff;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 /*
@@ -270,20 +273,18 @@ a:hover {
 .logo {
   float: left;
   font-size: 48px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: .5px;
   line-height: 44px;
   padding: 40px 0 22px 0;
 }
-.tagline {
-  margin: 66px 0 22px 0;
-  text-align: right;
-}
+
 .primary-nav {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: .5px;
   text-transform: uppercase;
+  padding: 64px 0 22px 0;
 }
 
 /*
@@ -327,9 +328,9 @@ a:hover {
 */
 
 .hero {
-  color: #fff;
+  color: #2D2D2D;
   line-height: 44px;
-  padding: 22px 80px 66px 80px;
+  padding: 40px 80px 40px 80px;
   text-align: center;
 }
 .hero h2 {
@@ -337,20 +338,35 @@ a:hover {
 }
 .hero p {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 200;
 }
+
 .teaser a:hover h3 {
-  color: #a9b2b9;
+  color: #2ECC71;
 }
 .teaser img {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  border-radius: 5px;
+  border-radius: 0px;
   display: block;
   margin-bottom: 22px;
   max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px;
 }
 .teaser img:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.imgbox img {
+  border-radius: 0px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+  padding: 8px 8px 8px 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px;
 }
 
 /*
@@ -432,12 +448,12 @@ a:hover {
 
     transition: opacity .5s;
 
-    color: red;
+    color: #2ECC71;
     font-size: 156pt;
     text-align: center;
     line-height: 600px;
     vertical-align: middle;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rba(255, 255, 255, .5);
 }
 
 .slide:hover + .nav label {
@@ -463,5 +479,7 @@ input:checked + .slide-container .nav label {
 }
 
 iframe {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px 8px 8px 8px;
 }
