@@ -1,7 +1,0 @@
-08F68E Light Green
-FF4E47 Light Red
-3AD9ED Light Blue
-1F1F1F Darkish Gray
-171717 Darker Gray
-
-2D2D2D Dark Gray Font/Lighter Gray

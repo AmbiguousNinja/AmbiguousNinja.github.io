@@ -13,7 +13,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+table, caption, tbody, tfoot, thead,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
@@ -23,6 +23,15 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  vertical-align: baseline;
+}
+
+tr,td,th {
+  margin: 0 0 0 0;
+  padding: 0px 10px 16px 0px;
+  border: 0;
+  font:inherit;
+  font-size: 18px;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -44,10 +53,10 @@ q:before, q:after {
   content: '';
   content: none;
 }
-table {
+/*table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+}*/
 
 /*
   ========================================
@@ -206,11 +215,17 @@ hr {
 */
 
 .lead {
+  color: #2D2D2D;
+  line-height: 44px;
   text-align: center;
+  padding: 0px 80px 0px 80px;
 }
 .lead p {
-  font-size: 21px;
-  line-height: 10px;
+  font-size: 24px;
+  font-weight: 200;
+}
+.lead h2 {
+  font-size: 36px;
 }
 
 /*
@@ -247,7 +262,7 @@ a:hover {
   color: #2ECC71;
   cursor: pointer;
   display: inline-block;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: .5px;
   margin: 0;
   text-transform: uppercase;
@@ -413,7 +428,7 @@ a:hover {
     -webkit-touch-callout: none;
 }
 
-.slides input {
+.slides input { 
   display: none;
 }
 
@@ -428,7 +443,10 @@ a:hover {
     height: 707px;
     display: block;
     position: absolute;
-    transform: scale(1);
+
+    transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
 }
 
 .slide img {
@@ -446,14 +464,16 @@ a:hover {
     z-index: 9;
     cursor: pointer;
 
-    transition: opacity .5s;
+    transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
 
-    color: #2ECC71;
+    color: #FFF; /* FFF */
     font-size: 156pt;
     text-align: center;
     line-height: 600px;
-    vertical-align: middle;
-    background-color: rba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .4);
+    /*text-shadow: 0px 0px 15px rgb(119, 119, 119);*/
 }
 
 .slide:hover + .nav label {
@@ -472,12 +492,15 @@ input:checked + .slide-container  .slide {
     opacity: 1;
 
     transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
 }
 
-input:checked + .slide-container .nav label { 
+input:checked + .slide-container .nav label {
   display: block;
 }
 
+/* YOUTUBE */
 iframe {
   border-style: solid;
   border-width: 1px;
