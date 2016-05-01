@@ -281,6 +281,11 @@ a:hover {
   Primary header
   ========================================
 */
+
+.primary-header {
+  background: #fff;
+}
+
 .logo {
   float: left;
   font-size: 48px;
@@ -305,6 +310,7 @@ a:hover {
 */
 
 .primary-footer {
+  background: #1F1F1F;
   color: #fff;
   font-size: 14px;
   padding-bottom: 25px;
