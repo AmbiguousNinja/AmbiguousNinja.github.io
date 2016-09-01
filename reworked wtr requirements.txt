@@ -1,0 +1,76 @@
+General:
+- 1.5" left margin, 1" right,top,bottom margins
+- 1.5 spacing (Report Body) (Contributions) (Summary)
+- 2-3 line spacing between sections
+- single spacing (rest of front/back matter)
+- full justified paragraphs with 11pt time-roman font
+- section headings 12-14pt time-roman bold font
+
+
+
+
+
+Front Matter Order:
+- Front cover
+- Title page
+- letter of submittal
+- contributions
+- summary
+- table of contents
+- list of figures
+- list of tables
+
+Front Cover:
+- Not required if cover is clear plastic
+- university, faculty and department names
+- title of report
+- "self-study" if applicable
+- student name and previous academic term
+- "confidential-1" if applicable
+
+Title Page:
+- university, faculty and department names
+- title of report
+- "self-study" if applicable
+- name and location of employer
+- student name, id, nexus id and previous academic term
+- completion date of report
+- "confidential-1" if applicable
+
+Table of Contents:
+- 
+
+
+Letter of Submittal:
+- single spaced in standard business letter format
+- "confidential-1" if applicable
+- report title, number
+- previous academic term
+- name of employer
+- department(s) worked for
+- employer/department activity
+- purpose of report
+- assistance acknowledgement
+- state who report was written for
+- declaration statement
+- student name, id, signature
+
+Contributions (2-3 pages):
+- size of team working on entire project
+- team's goals
+- student's task(s)
+- relationship between report and student's job
+- how this work fits into broader scheme of things
+
+Summary (1 page):
+- purpose and scope of report
+- major points in the report
+- highlights of the conclusions
+- highlights of the recommendations
+
+Conclusions:
+- supply a clear/concise statement of what conclusions were drawn from the engineering analysis in report body
+- Only states conclusions actually mentioned in the report body
+
+Recommendations:
+- supply a clear/concise statement of the recommendations to the client such as future improvements and allocation of capital to address the report's conclusions

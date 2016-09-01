@@ -1,0 +1,65 @@
+General:
+
+- full justified paragraphs with 11pt time-roman font
+- single spacing (rest of front/back matter)
+- section headings 12-14pt time-roman bold font
+- 2-3 line spacing between sections
+- no section or subsection numbering in front matter
+- no references cited in front matter
+- front matter sections ordered correctly
+- front matter page numbers lower case roman
+- restart page numbering at start of report body
+- report body and appendices use section and subsection numbering
+- no section numbers in Glossary or References
+- table of contents include entries for:
+	- report body
+		- section
+		- subsection
+	- front matter
+		- contributions
+		- summary
+		- conclusions
+		- recommendations
+		- list of figures
+		- list of tables
+	- back matter
+		- glossary
+		- references
+		- appendices
+- list of figures on a seperate page
+- list of figures contains correct entries for all figures in report body
+- list of tables on a seperate page
+- list of tables contains correct entries for all tables in report body
+- table of contents, list of figures, list of tables entries are properly tab filled
+- all figures have a number and title/caption below the figure
+- consistent figure numbering in the report body
+- all figures taken from another source cite that source by reference number on the figure title line
+- all figures are correctly cited (referred to by number) in the report body text before they appear in the report body
+- all tables have a number and title/caption above the table
+- consistent table numbering in the report body
+- all figures taken from another source cite that source by reference number on the figure title line
+- all figures are correctly cited (referred to by number) in the report body text before they appear in the report body
+- all tables have a number and title/caption above the table
+- consistent table numbering in the report body
+- all tables taken from another source cite that source by reference in the report body text before they appear in the report body
+- all figures and tables are readable
+- all appendices are cited (referred to by number or letter) in the report body text
+- the References section contains at least 3 different references all in IEEE format (see IEEE Computer Society references style guide), and at least one reference is a non-Internet source
+- each reference (in the Reference section) is cited in the report body
+- 10 to 15 page report body not including the 1 page Conclusions section and the 1 page Recommendations section
+
+
+The following must not be present in the report:
+- change in technical writing style/quality between front matter and the report body
+- report body reads like a manual
+- significant portions of the report body belongs in an appendix
+- many acronyms used and <em>Glossary</em> of acronyms incomplete or missing
+- footnotes or endnotes are used for references except appendices
+- too few/many figures in report body
+- insufficient discussion of figures appearing in the report body
+- too few/many tables in report body
+- insufficient discussion of tables appearing in the report body
+
+
+
+
