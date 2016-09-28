@@ -1,0 +1,191 @@
+/* Status Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#active {
+  color: #2ECC71;
+}
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+  /*background-color: white;*/
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#black a {
+  color: black;
+}
+
+#black a:hover,
+.navbar a:hover {
+  color:#2ECC71;
+}
+
+.navlist {
+  padding-top: 1.5rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.navlist ul {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.navlist li {
+  display: inline-block;
+}
+
+.navlist li a {
+  padding-right: 2rem;
+}
+
+.navlist li:last-child a{
+  padding-right: 0;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+body, html {  /* Allows the parallax effect */
+  height: 100%;
+}
+
+.superhero {
+  background-size: cover;
+  color: #FFF;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100%;
+}
+
+
+.hero {
+  background-size: cover;
+  color: black;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 50%;
+}
+
+.hero-content {
+    padding-top: 5rem;
+
+    display: flex;
+    height: 80%;
+}
+
+.lower {
+  display: inline-block;
+  align-self: flex-end;
+}
+/* Specific Heroes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#abouthero {
+
+}
+
+#resumehero {
+
+}
+
+/* Button TODO - Rewrite
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.ambiguousbtn {
+  border-radius: 0px;
+  display: inline-block;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background: #2EDB80;
+  color: white;
+}
+
+.ambiguousbtn:hover {
+  background: #28BD6E;
+  color: #fff;
+}
+
+.body-title {
+  color: white;
+  margin-top: -1.25em;
+  padding-bottom: 0.5em;
+}
+
+.experience {
+  padding-top: 4rem;
+  align-self: left;
+}
+
+.experience img {
+  width: 150px;
+  float: right;
+}
+
+/* Teaser
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.teasers {
+  padding-top: 3rem;
+}
+
+.teaser:hover {
+  opacity: 1.0;
+}
+
+.teaser a{
+  text-decoration: none;
+  color: black;
+}
+
+.teaser a:hover h3 {
+  color: #2ECC71;
+}
+
+.teaser img {
+  display: block;
+  margin-bottom: 2rem;
+  max-width: 95%;
+}
+
+.teaser img:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 0px) {
+  .navbar {
+    text-align: center;
+  }
+}
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .navbar {
+    text-align: left;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .navbar {
+    text-align: left;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .navbar {
+    text-align: left;
+  }
+}

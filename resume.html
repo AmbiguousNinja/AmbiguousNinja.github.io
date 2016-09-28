@@ -1,153 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- Preamble -->
+		<meta charset="utf-8">
+		<title>Tony Wu</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tony Wu</title>
-    <link rel="stylesheet" href="assets/main.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
-  </head>
+		<!-- For Mobile -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet">
 
-    <header>
-      <div class="primary-header container group">
-        <h1 class="logo">
-          <a href="index.html">Tony Wu</a>
-        </h1>
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="stylesheets/normalize.css">
+		<link rel="stylesheet" href="stylesheets/skeleton.css">
+		<link rel="stylesheet" href="stylesheets/main.css">
+	</head>
 
-        <nav class="nav primary-nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>|</li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li>|</li>
-            <li><a href="projects.html">Projects</a></li>
-            <li>|</li>
-            <li><a href="resume.html">Resume</a></li>
-            <li>|</li>
-            <li><a href="https://www.linkedin.com/in/tonyhuiwu">LinkedIn</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+	<body>
 
-    <section class="row-alt">
-      <div class="lead container">
+	<!-- Navbar -->
+	<div class="hero" style="background-image: url(assets/images/coding.jpg)">
+		<div class="navbar">
+			<div class="container">
+				<div class="row">
+					<div class="one-half column">
+						<h2><a href="index.html">Tony Wu</a></h2>
+					</div>
+					
+					<div class="one-half column navlist">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Me</a></li>
+							<li><a id="active" href="#">Resume</a></li>
+							<li><a href="https://www.linkedin.com/in/tonyhuiwu">Linkedin</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-        <h1>Resume</h1>
-        <a class="btn btn-default" href="assets/resume.pdf">View Detailed Resume</a>
+	<div class="container">
+		<div class="row">
+			<h2 class="body-title">Resume</h2>
+			<a class="ambiguousbtn" href="assets/resume.pdf">Click for Detailed Version!</a>
+		</div>
 
-      </div>
-    </section>
+		<div class="row experience">
+			<div class="two-thirds column">
+				<h4><strong>Aeryon Labs</strong></h4>
+				<h5>Application Developer</h5>
+				<h6><em>Flying Robots!</em></h6>
+				<p></p>
+				<p>Developed features for Mission Control Software, the app that controls Aeryon's SkyRanger sUAS.</p>
+			</div>
 
-    <section class="row">
-      <div class="grid">
-      <h1>Work Experience</h1>
-        <section class="company">
+			<div class="one-third column">
+				<img src="assets/images/aeryon.png" alt="Aeryon Labs">
+			</div>
+		</div>
 
-          <div class="col-2-3">
+		<div class="row experience">
+			<div class="two-thirds column">
+				<h4><strong>Hydro One</strong></h4>
+				<h5>Asset & Project Management Intern</h5>
+				<h6><em>Energy Distribution!</em></h6>
+				<p></p>
+				<p>Created a pathfinding algorithm that traces conductor paths in the city grid which provided valuable connection information that was previously hard to obtain.</p>
+			</div>
 
-            <h2>Aeryon Labs</h2>
-            <h5>Application Developer</h5>
-            <h4><em>Flying Robots!</em></h4>
-            
-            <p>Developed features for Mission Control Software (MCS).</p>
+			<div class="one-third column">
+				<img src="assets/images/hob.png" alt="Hydro One">
+			</div>
+		</div>
 
-          </div><!--
+		<div class="row experience">
+			<div class="two-thirds column">
+				<h4><strong>SkyWave</strong></h4>
+				<h5>Hardware Test Automation Intern</h5>
+				<h6><em>Satellites!</em></h6>
+				<p></p>
+				<p>Designed and created a GUI in Python that interfaced with SCPI-enabled lab equipment to automate the testing of satellite terminatls.</p>
+			</div>
 
-          --><aside class="col-1-3">
-            <div class="company-info">
-              <img src="assets/images/resume/aeryon.png" alt="Aeryon Labs">
-            </div>
-          </aside>
+			<div class="one-third column">
+				<img src="assets/images/skywave.png" alt="SkyWave">
+			</div>
+		</div>
 
-        </section>
+		<div class="row experience">
+			<div class="two-thirds column">
+				<h4><strong>General Electric</strong></h4>
+				<h5>Hardware Design Validation Intern</h5>
+				<h6><em>Edison!</em></h6>
+				<p></p>
+				<p>Carried out tests on potential replacements for obsolete board components.</p>
+			</div>
 
-          <!-- Company -->
-        <section class="company">
+			<div class="one-third column">
+				<img src="assets/images/ge.png" alt="General Electric">
+			</div>
+		</div>
+	</div>
 
-          <div class="col-2-3">
-
-            <h2>Hydro One Brampton</h2>
-            <h5>Asset & Project Management Intern</h5>
-            <h4><em>Electricity!</em></h4>
-
-            <p>Designed and implemented a pathfinding algorithm that traces through the city grid, providing detailed information about many assets (transformers, splices, primary conductors etc) that was previously unattainable.</p>
-
-          </div><!--
-
-          --><aside class="col-1-3">
-            <div class="company-info">
-              <img src="assets/images/resume/hob.png" alt="Hydro One Brampton">
-            </div>
-          </aside>
-
-        </section>
-
-        <!-- Company -->
-
-        <section class="company">
-
-          <div class="col-2-3">
-
-            <h2>SkyWave an ORBCOMM Company</h2>
-            <h5>Hardware Test Automation Intern</h5>
-            <h4><em>Satellites!</em></h4>
-
-            <p>Created an application in Python that interfaced with SCPI-enabled lab equipment to automate the testing of satellite terminals.</p>
-
-          </div><!--
-
-          --><aside class="col-1-3">
-            <div class="company-info">
-              <img src="assets/images/resume/skywave.png" alt="SkyWave">
-            </div>
-          </aside>
-
-        </section>
-
-        <!-- Company -->
-
-        <section class="company">
-
-          <div class="col-2-3">
-
-            <h2>GE Digital Energy</h2>
-            <h5>Hardware Design Validation Intern</h5>
-            <h4><em>Edison!</em></h4>
-
-            <p>Involved in the process of replacing an obsolete EEPROM flash chip from testing viable alternatives to modifying the firmware to support the selected replacement.</p>
-
-          </div><!--
-
-          --><aside class="col-1-3">
-            <div class="company-info">
-              <img src="assets/images/resume/ge.png" alt="GE">
-            </div>
-          </aside>
-
-        </section>
-
-      </div>
-    </section>
-
-    <footer>
-      <div class="primary-footer container group">
-        <small>&copy; Tony Wu <span style="font-size: 13px;">2013 - 2016</span></small>
-
-        <nav class="nav">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/tonyhuiwu">LinkedIn</a></li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
-
-  </body>
+	</body>
 </html>
