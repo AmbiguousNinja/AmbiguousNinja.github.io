@@ -59,17 +59,22 @@
 	TITLE
 */
 .title {
-
+	/*background-color: gold;*/
+	margin-top: 15px;
 }
 
 .title.holder {
 	/*background-color: gold;*/
+	font-weight: bold;
 }
 
 .title.wrapper {
 	/*background-color: maroon;*/
 	justify-content: space-around;
 	align-items: center;
+
+	font-weight: bold;
+	font-size: 18pt;
 }
 
 /* 
@@ -118,14 +123,20 @@
 
 .card {
 	margin: 10px 5px 10px 5px;
-	width: 350px;
-	height: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	width: 340px;
+	height: 350px;
 	/*background-color: gray;*/
 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	align-content: space-between;
+
+	border-style: solid;
+	border-width: 1px;
 }
 
 .card-image {
@@ -145,7 +156,7 @@
 }
 
 .card-title {
-	
+	font-weight: bold;
 }
 
 .card-subtitle {
