@@ -9,9 +9,13 @@
 	font-size: 14pt;
 }
 
+body {
+	color: #444;
+}
+
 /* GLOBAL */
 .site-container {
-	background-color: #e5e5e5;
+	background-color: #fff;
 	display: flex;
 	flex-direction: column;
 }
@@ -34,12 +38,12 @@
 }
 
 a:link {
-	color: #0b4f6c;
+	color: #0B4F6C;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #0b4f6c;
+	color: #0B4F6C;
 	text-decoration: none;
 }
 
@@ -49,7 +53,7 @@ a:hover {
 
 /* NAVBAR */
 .navbar.holder {
-	background-color: #fbfbff;
+	background-color: #FBFBFF;
 }
 
 .navbar.wrapper {
@@ -69,7 +73,7 @@ a:hover {
 
 /* HERO */
 .hero.holder {
-	background-color: #fbfbff;
+	background-color: #FBFBFF;
 }
 
 .hero.wrapper {
@@ -98,9 +102,10 @@ a:hover {
 
 /* TITLE */
 .title.content {
-	margin: 15px;
+	margin: 50px 15px 15px 15px;
 	font-weight: bold;
 	font-size: 18pt;
+	text-align: center;
 }
 
 /* SUBTITLE */
@@ -127,7 +132,7 @@ a:hover {
 
 .footer.content {
 	margin: 15px;
-	color: #fbfbff;
+	color: #FBFBFF;
 }
 
 /* CARDS SECTION */
