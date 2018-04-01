@@ -188,3 +188,7 @@ a:hover {
 .card.description {
 
 }
+
+.hideable {
+    display: none;
+}
