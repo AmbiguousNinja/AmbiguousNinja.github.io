@@ -189,9 +189,6 @@ a:hover {
 
 }
 
-/**/
-
-
 @media (max-width: 940px) {
 	.siema {
 		width: 100%;
@@ -200,7 +197,10 @@ a:hover {
 
 @media (min-width: 940px) {
 	.siema {
-		width: 50%;
+		width: 25%;
+		border-color: black;
+		border-width: 5px;
+		border: 5 5 5 5;
 	}
 }
 
