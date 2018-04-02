@@ -190,9 +190,18 @@ a:hover {
 }
 
 /**/
-.siema {
-	width: 75%;
-	max-width: 514px;
+
+
+@media (max-width: 940px) {
+	.siema {
+		width: 100%;
+	}
+}
+
+@media (min-width: 940px) {
+	.siema {
+		width: 50%;
+	}
 }
 
 .siema img {
