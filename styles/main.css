@@ -193,17 +193,17 @@ a:hover {
 	.siema {
 		width: 100%;
 	}
+	.siema img {
+		width: 90%;
+	}
 }
 
 @media (min-width: 940px) {
 	.siema {
 		width: 25%;
-		border-color: black;
-		border-width: 5px;
-		border: 5 5 5 5;
 	}
-}
-
-.siema img {
-	width: 100%;
+	.siema img {
+		width: 100%;
+		justify-content: center;
+	}
 }
