@@ -54,6 +54,8 @@ function stopDrag( event ) {
 }
  
 $(function() {
+ 
+  //  the carousel
   $carousel = $('#carousel');
   $carousel.carouFredSel({
     width: 512 * 3,
