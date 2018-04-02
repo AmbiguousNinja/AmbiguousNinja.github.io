@@ -194,16 +194,15 @@ a:hover {
 		width: 100%;
 	}
 	.siema img {
-		width: 90%;
+		max-height: 75%;
 	}
 }
 
 @media (min-width: 940px) {
 	.siema {
-		width: 25%;
+		width: 514px;
 	}
 	.siema img {
 		width: 100%;
-		justify-content: center;
 	}
 }
