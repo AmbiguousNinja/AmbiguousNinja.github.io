@@ -190,19 +190,11 @@ a:hover {
 }
 
 /**/
-#wapper {
-	background-color: #fff;
-	border: 20px solid #eee;
-	width: 512px;
-	height: 724px;
-	/*margin: -220px 0 0 -420px;*/
-	overflow: hidden;
-	/*position: absolute;*/
-	top: 50%;
-	left: 50%;
+.siema {
+	width: 75%;
+	max-width: 514px;
 }
-#carousel img {
-	display: block;
-	float: left;
-	border: none;
+
+.siema img {
+	width: 100%;
 }
