@@ -1,0 +1,52 @@
+body {
+	background-color: #f9fbfb;
+	font-family: Tahoma, Geneva, sans-serif;
+	max-width: 900px;
+	margin: 0 auto;
+	line-height: 1.6;
+
+	padding-left: 2ch;
+	padding-right: 2ch;
+}
+
+p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+/* Navbar */
+.nav {
+	text-align: center;
+}
+
+.nav-item {
+	text-decoration: none;
+	font-weight: bold;
+	color: #3f4440;
+	font-size: 18px;
+}
+
+/* Common */
+.date {
+
+}
+
+.title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+/* Card */
+.card-image {
+	width: 30%;
+	border: none;
+	float: left;
+	margin: 0px 15px 0px 0px;
+}
+
+@media (max-width: 500px) {
+	.card-image {
+		width: 100%;
+	}
+}
