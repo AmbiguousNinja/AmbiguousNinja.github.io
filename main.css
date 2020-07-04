@@ -1,32 +1,38 @@
 html {
     max-width: 900px;
     margin: 0 auto;
-    background-color: ;
+    background-color: #fff;
 }
 
 header nav {
     text-align: center;
+    width: 100%;
+    display: inline-block;
 }
 
-#header-name {
-    text-align: center;
-    text-decoration: none;
-    color: red;
-}
-
-#header-name a {
-    text-decoration: none;
-    color: red;
-}
-
-hr {
-
+header nav a {
+    min-width: 60px;
+    display: inline-block;
 }
 
 footer {
     text-align: center;
 }
 
-.blogpost a {
+a {
     text-decoration: none;
+}
+
+a:link {
+    color: #000;
+}
+
+
+a:visited {
+    color: #000;
+}
+
+
+a:hover {
+    color: #aaa;
 }
