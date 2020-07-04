@@ -8,8 +8,15 @@ header nav {
     text-align: center;
 }
 
-header h3 {
+#header-name {
     text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+#header-name a {
+    text-decoration: none;
+    color: red;
 }
 
 hr {
